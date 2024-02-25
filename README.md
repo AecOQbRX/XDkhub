@@ -3,13 +3,13 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Kenyou Hub",
-    SubTitle = "by kenyou.exe",
+    Title = "Jkay Hub",
+    SubTitle = "by Jkay Hub",
     TabWidth = 160,
-    Size = UDim2.fromOffset(400, 200),
-    Acrylic = true, 
+    Size = UDim2.fromOffset(450, 300),
+    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
-    MinimizeKey = Enum.KeyCode.End 
+    MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),
